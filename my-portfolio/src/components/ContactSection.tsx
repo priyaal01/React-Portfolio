@@ -32,6 +32,7 @@ const ContactSection = () => {
     }
 
     try {
+      console.log(RESEND_API_END_POINT)
       const res = await axios.post(`${RESEND_API_END_POINT}/contact`, {
         name,
         email,

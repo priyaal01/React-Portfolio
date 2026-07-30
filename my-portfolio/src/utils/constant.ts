@@ -1,1 +1,1 @@
-export const RESEND_API_END_POINT="http://localhost:8000/api"
+export const RESEND_API_END_POINT = import.meta.env.VITE_API_URL
