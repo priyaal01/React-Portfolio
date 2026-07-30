@@ -4,7 +4,7 @@ import { Send } from "lucide-react";
 import { FaGithub, FaLinkedin, FaInstagram, } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import axios from "axios"
-import { RESEND_API_END_POINT } from "../utils/constant"
+import { RESEND_API_END_POINT } from "../utils/constant.js"
 import { toast } from "sonner";
 
 const socials = [
@@ -30,8 +30,6 @@ const ContactSection = () => {
       toast.error("Please fill in all fields.");
       return;
     }
-
-    console.log("API:", RESEND_API_END_POINT);
 
     try {
       
