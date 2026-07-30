@@ -11,7 +11,7 @@ const PORT = process.env.PORT
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://react-portfolio-alpha-one-12.vercel.app",
     credentials:true
 }
 
