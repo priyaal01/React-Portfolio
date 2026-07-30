@@ -9,6 +9,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import SplashScreen from "@/components/SplashScreen";
+import SmoothScroll from "@/components/SmoothScroll";
 
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
   return (
     <div className="relative min-h-screen bg-background overflow-x-hidden">
       {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
+      <SmoothScroll />
       <ParticleBackground />
       <Navbar />
       <main>
