@@ -31,7 +31,7 @@ const ContactSection = () => {
       return;
     }
 
-    console.log("API URL:", import.meta.env.VITE_API_URL);
+    console.log("API:", RESEND_API_END_POINT);
 
     try {
       
